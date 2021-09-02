@@ -1,0 +1,28 @@
+Roederer Ch 1.1:
+
+1) OFR - original frame of reference
+
+2) 3 types of periodicity:
+	a) Cyclotron motion: periodicity in the motion perp to the mag field
+		- ex: an electron spiralling around a mag field line
+	b) Bounce motion: periodic motion up and down the magnetic field line
+		- ex: an electron travelling from the celestial equatorial region to a pole along a mag field line
+		then back toward the equatorial region
+	c) Drift motion: periodic motion on a closed surface/shell made up of mag field lines
+		- ex: an electron hopping from field line to field line
+
+3) trapping field - any mag field in which particles have the capability of bounce motion
+	a) if drift motion can also occur, it is called stable trapping
+
+4) GCS (guiding center system) - a moving frame of reference in which cyclotron motion appears as a nearly
+circular periodic orbit
+
+5) Drift velocity - the perpendicular velocity of the GCS frame
+Parallel velocity - the average of the particle's instantaneous parallel velocity
+
+
+[SKIP]
+
+
+Roederer Ch 1.6: 
+

@@ -1,0 +1,31 @@
+Possible Research Theses:
+
+	1) Event Study: 9 storm epoch study (<100nT)
+
+		a) Statistical analysis of relation between microburst occurance and magnetic indices (AE & Dst) during 9 storms in 1993. In this study, we can
+		quantitatively state how correlated each magnetic index is with microburst occurance throughout these storms.
+			i) Review outlier points
+			ii) Determine occurence trends for each region of storm
+				- Look for quantitative comparison between each region
+				- 
+			iii) Goodness of fit calc -> Compare results between AE/Pre-Dst/Main-Dst/Rec-Dst
+
+		b) A qualitative of analysis can also be conducted documenting the behavior of Microburst Pitch Angle Isotropy compared to Background Pitch Angle
+		Isotropy. This will help determine the actual effects that geomagnetic disturbances have on the loss processes of electrons in the radiation belts.
+			i) Plot MB/BG iso progression for each individual storm
+			ii) Create epoc study?
+			iii) Mathematically analyze the ratio (maybe?) between MB and BG isotropies as AE and Dst change
+				- Might involve other mathematical methods
+ 				- Could use *difference* calc rather than ratio (try both)
+
+	2) Statistic Analysis: Full year study (1993)
+
+		a) Isotropy vs Mag/MLT/Pitch/LShell:
+			i) Show plots of all 4 comparisons
+			ii) Mathematical comparison between MB and BG 2d histograms to normalize data
+				- still working on the best approach to this
+			iii) Dial plot to show how Average MB/BG Isotropy is correlated to L-Shell and MLT
+				- Could make a plot of the ratio between these
+
+		b) Magnitude vs Iso/MLT/Pitch/LShell:
+			i) Not sure if we want to go far in this direction (less usable results)

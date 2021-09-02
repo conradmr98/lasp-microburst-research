@@ -1,0 +1,102 @@
+BEGIN METADATA
+
+year,day,hr,min,sec:   year, day of year, hour of day, minute of hour, second of min.
+fp_year:               fractional year.
+fp_doy:                fractional day-of-year.
+sec_of_day:            second of day.
+Sec_of_day_psset -     Second of day contained in the original PS Set data record 
+Flag_rstime -          Flag indicating whether the time-stamp for the data record has been
+	               synced to its corresponding RS Set time-stamp
+Orbit_Number -         SAMPEX Orbit Number
+GEO_Radius -           Range in GEO coordinate system (km).
+GEO_Long -             Longitude in GEO coordinate system (0 360 degrees).
+GEO_Lat -              Latitude in GEO coordinate system (-90 to +90 degrees).
+Altitude -             Altitude in GEO coordinate system (km).
+GEI_X,Y,Z -            Position vector in GEI coordinate system (km).
+GEI_VX,VY,VZ -         Velocity vector in GEI coordinate system (km/s).
+ECD_Radius -           Eccentric Dipole (offset tilted dipole) range (km).
+ECD_Long -             Eccentric Dipole longitude (0 to 360 degrees).
+ECD_Lat -              Eccentric Dipole latitude (-90 to +90 degrees).
+ECD_MLT -              Eccentric Dipole local time (hr).
+L_Shell -              L-shell parameter.
+B_Mag -                Model field magnitude (gauss).
+MLT -                  Local time at magnetic equator (hr) ECD.
+Invariant_Lat -        Invariant latitude (degrees).
+B_X,Y,Z -              Magnetic field vector, Cartesian GEI coordinates.
+B_R,Theta,Phi -        Magnetic field vector, spherical geographic coordinates (GEO) (r, theta, phi).
+Declination -          Magnetic declination (degrees).
+Dip -                  Magnetic dip angle (degrees).
+Magnetic_Radius -      Algebraic magnetic radial distance (km).
+Magnetic_Lat -         Algebraic magnetic latitude (degrees). 
+Loss_Cone_1 -          Loss cone 1/2 angle (degrees) for particles mirroring below 100 km in same hemisphere as spacecraft.
+Loss_Cone_2 -          Loss cone 1/2 angle (degrees) for particles mirroring below 100 km in either hemisphere.
+Dipole_Moment_X -      Dipole moment vector. Cartesian geographic coordinates (GEO).
+Dipole_Disp_X -        Dipole moment displacement vector. Cartesian geographic coordinates (GEO).
+Mirror_Alt -           Dipole moment displacement vector. Cartesian geographic coordinates (GEO).
+Mirror_Long -          Geographic longitude (degrees) of mirror point.
+Mirror_Lat -           Geographic latitude (degrees) of mirror point.
+Equator_B_Mag -        Magnitude of field (gauss) at magnetic equator.
+Equator_Alt -          GEO altitude (km) at magnetic equator.
+Equator_Long -         GEO longitude (degrees) at magnetic equator.
+Equator_Lat -          GEO latitude (degrees) at magnetic equator.
+North100km_B_Mag -     Magnitude of field (gauss) at north 100km point.
+North100km_Alt -       GEO altitude (km) at north 100km point.
+North100km_Long -      GEO longitude (degrees) at north 100km point.
+North100km_Lat -       GEO latitude (degrees) at north 100km point.
+South100km_B_Mag -     Magnitude of field (gauss) at south 100km point.
+South100km_Alt -       GEO altitude (km) at south 100km point.
+South100km_Long -      GEO longitude (degrees) at south 100km point.
+South100km_Lat -       GEO latitude (degrees) at south 100km point.
+Vertical_Cutoff -      Nominal vertical cutoff (1980) at 20 km altitude at subsatellite location (GV).
+SAA_Flag -             South Atlantic Anomaly Flag. 0=not in SAA, 1=within SAA.
+A11,A21,A31,A12,A22,A32,A13,A23,A33
+Pitch -                Pitch angle of a particle heading down the instrument boresight
+	               (i.e., angle between S/C z-axis and (-1) times the local magnetic field vector), in degrees.
+Zenith -               Angle between instrument boresight (S/C z-axis) and local zenith, in degrees.
+Azimuth -              Azimuth of projection of boresight into plane normal to zenith, in degrees,
+	               with 0 = east, 90 = north, 180 = west, 270 = south.
+Att_Flag -             Flag, data quality flag indicating source of attitude information
+	               (attitude direction cosines, pitch, zenith, azimuth).
+	               Executive summary: flag =0,1,100, or 101 means attitude is OK. Other values indicate attitude is not OK.
+
+
+
+IMPORTANT ATTRIBUTES (marked by Conrad)
+
+1 - priority
+
+year,day,hr,min,sec:   year, day of year, hour of day, minute of hour, second of min.
+sec_of_day:            second of day.
+GEO_Radius -           Range in GEO coordinate system (km).
+GEO_Long -             Longitude in GEO coordinate system (0 360 degrees).
+GEO_Lat -              Latitude in GEO coordinate system (-90 to +90 degrees).
+Altitude -             Altitude in GEO coordinate system (km).
+L_Shell -              L-shell parameter.
+MLT* -                 Local time at magnetic equator (hr) ECD.
+SAA_Flag -             South Atlantic Anomaly Flag. 0=not in SAA, 1=within SAA.
+Pitch -                Pitch angle of a particle heading down the instrument boresight
+	               (i.e., angle between S/C z-axis and (-1) times the local magnetic field vector), in degrees.
+Zenith -               Angle between instrument boresight (S/C z-axis) and local zenith, in degrees.
+Azimuth -              Azimuth of projection of boresight into plane normal to zenith, in degrees,
+	               with 0 = east, 90 = north, 180 = west, 270 = south.
+Att_Flag -             Flag, data quality flag indicating source of attitude information
+	               (attitude direction cosines, pitch, zenith, azimuth).
+	               Executive summary: flag =0,1,100, or 101 means attitude is OK. Other values indicate attitude is not OK.
+
+* Describes day/night time of satellite (look into this)
+
+
+2 - secondary
+
+ECD_Radius -           Eccentric Dipole (offset tilted dipole) range (km).
+ECD_Long -             Eccentric Dipole longitude (0 to 360 degrees).
+ECD_Lat -              Eccentric Dipole latitude (-90 to +90 degrees).
+ECD_MLT -              Eccentric Dipole local time (hr).
+B_Mag -                Model field magnitude (gauss).
+Invariant_Lat -        Invariant latitude (degrees).
+B_X,Y,Z -              Magnetic field vector, Cartesian GEI coordinates.
+B_R,Theta,Phi -        Magnetic field vector, spherical geographic coordinates (GEO) (r, theta, phi).
+Declination -          Magnetic declination (degrees).
+Dip -                  Magnetic dip angle (degrees).
+Magnetic_Radius -      Algebraic magnetic radial distance (km).
+Magnetic_Lat -         Algebraic magnetic latitude (degrees). 

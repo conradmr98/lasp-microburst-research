@@ -1,0 +1,20 @@
+Statistical Properties of Electron Curtain Precipitation Estimated With AeroCube-6
+
+3. Methodology
+
+	3.1 Curtain Identification:
+	
+		-
+	
+	3.2 Differentiating Between Drifting and Precipitating Curtains
+
+		- Curtains are hypothesized to be the drifting remnants of microbursts (Blake and O'Brien, 2016).
+		To determine whether electrons are precipitating (microbursts) or drifting (curtains),  one can
+		check to see the event's spatial relation to the SAA.
+
+		- Bounce loss cone (BLC): electron population with equatorial pitch angles small enough for
+		precipitation to occur within one bounce period
+
+		- Drift loss cone (DLC): electron population with equatorial pitch angles large enough to avoid
+		precipitation within one bounce period but small enough to precipitation to occur within one
+		drift period (when arriving the South Atlantic Anomoly).

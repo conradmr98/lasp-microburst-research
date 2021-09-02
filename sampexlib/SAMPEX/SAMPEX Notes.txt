@@ -1,0 +1,62 @@
+1. Introduction
+	a) The slow constant decay of the outer belt is generally attributed to hiss waves, however faster changes 
+	are thought to be caused by geomagnetic activity
+	b) HHS-driven storms are thought to cause large electron dropouts, which are often followed by a greater 
+	flux than that of the pre-storm population
+	c) It is thought that the electromagnetic ion cyclotron (EMIC) mechanism may have a large part in the
+	scattering and precipitation of electrons into the atmosphere
+
+	d) Mission Summary:
+		i) Investigating MeV electron precipitation by using the SAMPEX Heavy Ion Large Telescope (HILT)
+		to make direct measurements of precipitation loss
+		ii) 2 Types of Precipitation:
+			1) Microbursts: millisecond-long bursts (<1s)
+			2) Precipitation Bands: longer-duration fluxes (~5-30s)
+	e) MLT = Magnetic Local Time
+
+2. SAMPEX/HILT Observations
+	a) 2.0 Intro:
+		i) SAMPEX was launched in 1992 and remained in operation until 2012
+		ii) An array of 16 solid-state detectors were used to count electron flux
+		iii) HILT had a view angle of 68 degrees by 68 degrees
+		iv) 4 different modes of the instrument were used to collect anywhere from 20 to 100 ms rates of 
+		>1 MeV electrons
+		v) The equitorial loss cone in the outer radiation belt is less than ~6 degrees. At lower altitudes,
+		this loss cone opens up to greater than ~60 degress (this is where SAMPEX is)
+		vi) 3 Types of Particles:
+			1) BLC = particles that will be lost to the atmosphere within one bounce period
+			2) DLC = particles that will be lost to the atmoshpere within one drift period
+			3) Trapped = Particles that will remain trapped in the magnetosphere for longer
+		vii) A differential of count rates between the SSD1 and SSD4 is indicative of anisotropic (uneven)
+		distribution of these 3 types, while little difference is indicative of isotropic distribution
+		viii) Figure 1 shows how a typical anisotropic distribution can converge in uniform isotropy 
+		when SAMPEX passes through parts of the outer belt (rapid flux increase)
+
+	b) 2.1 Microbursts:
+		i) These <1 ms precipitation bursts have been recorded by low-altitude detectors as early as 1964
+		ii) It is estimated that the physical size of such microbursts is on the order of 10km (?)
+		iii) Thought to be caused by whistler mode chorus waves and upper hybrid resonance waves
+
+	c) 2.2 Precipitation Bands:
+		i) More likely spatially varying rather than temporally (time) varying, these precipitation bands
+		can last for hours
+		ii) Some may be induced by electromagnetic ion cyclotron (EMIC) waves which peak during geomagnetic
+		storms and persist into the recovery phase
+
+	d) 2.3 Automated Identification:
+		i) How does the algorithm work?
+
+
+*Definition of State 1*
+
+State 1: Launch configuration: 1992-187 thru 1994-069, plus 1996-044 thru 1996-220.
+
+Rate1 : SSD1 from Time to Time + 100 msec
+Rate2 : SSD2 from Time to Time + 100 msec
+Rate3 : SSD3 from Time to Time + 100 msec
+Rate4 : SSD4 from Time to Time + 100 msec
+Rate5 : PCRE from Time to Time + 100 msec
+Rate6 : IK from Time to Time + 100 msec
+
+Units are counts per 100 msec.
+		

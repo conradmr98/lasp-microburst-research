@@ -1,0 +1,30 @@
+Quantification of the precipitation loss of radiation belt electrons observed by SAMPEX
+
+1. Introduction:
+	- Electron loss is thoguht be caused by:
+		1) Scattering into the atmo
+		2) Magnetopause shadowing
+		3) Outward radial diffusion
+
+	- Electron precipitation losses into atmo are dominant in the outer radiation belt (L ~ 4), which
+	are caused by resonance between plasmawaves and electrons
+
+	- The lifetime of electrons in the radiation belts is still uncertain. One estimate is t=3days at L=6
+	and t=29days at L=4. Another estimate states a more general t~1day.
+
+	- In this paper, three storms were studied: an intense storm (Dst < -100nT), a moderate storm (Dst < -50nT),
+	and a small storm (Dst < -30nT)
+
+2. Data description
+
+	2.1 SAMPEX Data Geometry:
+	
+		- The bounce loss cone (BLC) is the range of equitorial pitch angles (at a given L Shell) in which
+		electrons will precipitate into the atmo within one bounce period
+
+		- For this model, BLC is defined by electorn mirror points below 100km in either hemisphere
+
+		- Variances in the Earth's magnetic field (such as the South Atlantic Anomoly, or SAA) as a function
+		of geomagnetic longitude cause teh drift loss cone (DLC) of quasi-trapped electrons. This cone is
+		the range of equitorial pitch angles between the local BLC and the maximum BLC at the SAA (which
+		yields the most precipitation due to a low B-field)

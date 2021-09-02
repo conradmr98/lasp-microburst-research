@@ -1,0 +1,23 @@
+Magnetosphere Indices: from https://www.ngdc.noaa.gov/stp/solar/magindices.html
+
+Index Data found here: https://www.ngdc.noaa.gov/geomag/indices/indices.html
+
+ - 3 Categories of Indices:
+	a) Auroral zone: AE
+	b) Mid-latitude: Kp
+	c) Low-latitude/Equitorial: Dst 
+
+ - The three indices (AE/Kp/Dst) are described in the monograph "Derivation, Meaning, and Use of Geomagnetic
+	Indices" (Mayaud, 1980)
+
+ - AE Index: the range between AU and AL indices ( AE = AU - AL )
+	a) AU - amplitude of the upper envelope of the H-traces*
+	b) AL - amplitude of the lower envelope of the H-traces*
+
+	* What is the definition of the H-traces?
+
+ - In general, the AE index is defined as a quantative measure of substorm intensity
+
+[SKIPPING Kp INDEX INFO]
+
+ - Dst Index: measure of globally symmetric contribution of the ring-current
