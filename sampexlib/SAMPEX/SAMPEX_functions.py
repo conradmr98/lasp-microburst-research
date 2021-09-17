@@ -10,7 +10,7 @@ def read_counts(file):
     t = []; r1 = []; r2 = []; r3 = []; r4 = []
     counter = 0
 
-    with open(r"E:\SAMPEX_Data\{}".format(file), "r")     as f:
+    with open(r"D:\SAMPEX_Data\{}".format(file), "r")     as f:
         # with open(): creates a block that opens and closes a file automatically
         # .format(a, b) replaces {} within preceding quote with variables (starting with a, then b, etc)
         for line in f:
