@@ -402,3 +402,46 @@ class Dial:
             self.ax.plot(np.linspace(0, 2*np.pi, earth_resolution), 
                         L*np.ones(earth_resolution), ls=':', c='k')
         return L_labels_names
+
+
+# define pcolormesh function to handle nan values
+def pcolormesh_nan(x: np.ndarray, y: np.ndarray, c: np.ndarray, 
+                    ax, projection, cmap=None, norm=None, zorder=1, alpha=1):
+    """handles NaN in x and y by smearing last valid value in column or row out,
+    which doesn't affect plot because "c" will be masked too
+    Stolen from:
+    https://github.com/scivision/python-matlab-examples/blob/0dd8129bda8f0ec2c46dae734d8e43628346388c/PlotPcolor/pcolormesh_NaN.py
+    
+    Personal Notes: Added zorder as an arguement.
+    """
+
+    mask = np.isfinite(x) & np.isfinite(y)
+    top = None
+    bottom = None
+
+    for i, m in enumerate(mask):
+        good = m.nonzero()[0]
+
+        if good.size == 0:
+            continue
+        elif top is None:
+            top = i
+        else:
+            bottom = i
+
+        x[i, good[-1] :] = x[i, good[-1]]
+        y[i, good[-1] :] = y[i, good[-1]]
+
+        x[i, : good[0]] = x[i, good[0]]
+        y[i, : good[0]] = y[i, good[0]]
+
+    x[:top, :] = np.nanmax(x[top, :])
+    y[:top, :] = np.nanmax(y[top, :])
+
+    x[bottom:, :] = np.nanmax(x[bottom, :])
+    y[bottom:, :] = np.nanmax(y[bottom, :])
+
+    ax.pcolormesh(x, y, np.ma.masked_where(~mask[:-1, :-1], c)[::-1, ::-1], 
+                cmap=cmap, shading='flat', transform=ccrs.PlateCarree(), 
+                norm=norm, zorder=zorder, alpha=alpha)
+    return
