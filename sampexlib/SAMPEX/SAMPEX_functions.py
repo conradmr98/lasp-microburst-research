@@ -338,7 +338,7 @@ class Dial:
                 'create ax with \n ax[0] = plt.subplot(121, projection="polar")')
         return
 
-    def draw_dial(self, colorbar=True, L_labels=[2,4,6,8], mesh_kwargs={}, colorbar_kwargs={}):
+    def draw_dial(self, cb_label, colorbar=True, L_labels=[2,4,6,8], cb_ticksize=15, cb_labelsize=15, mesh_kwargs={}, colorbar_kwargs={}):
         """
         Draws a dial plot on the self.ax subplot object (must have projection='polar' kwarg). 
         colorbar=True - Plot the colorbar or not.
@@ -364,7 +364,9 @@ class Dial:
         self._plot_params()
 
         if colorbar:
-            plt.colorbar(p, ax=self.ax, **colorbar_kwargs)
+            cb = plt.colorbar(p, ax=self.ax, **colorbar_kwargs)
+            cb.set_label(label=cb_label, size=cb_labelsize)
+            cb.ax.tick_params(labelsize=cb_ticksize)
         return
 
     def draw_earth(self, earth_resolution=50):
