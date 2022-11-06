@@ -1,0 +1,40 @@
+P2 - Ask about where to get sources mentioned [resolved]
+
+P4 - Ask about wording of Blake et al 1996 findings [resolved]
+
+P7 - Ask about the Mike edit of sentence "The range of equatorial pitch angles that result in precipitation within
+124 one bounce is called the bounce loss cone (BLC), which typically ranges from 0 degrees
+125 to an upper limit of ˜10 degrees depending on the altitude and energy of the electron
+126 population." [resolved]
+
+F1 - Take away grid? [resolved]
+
+P9 - Ask about Mike's rewording of Isotropy Index description [Think about wording I in one sentence]
+
+P10 - Check edit [resolved]
+
+P13 - Check edit [resolved]
+
+P16 - Ask about Mike's rewording [resolved]
+
+P18 - Ask about which Lorentzen and Douma papers to cite [resolved]
+
+P21 - I believe we *did* use Sym-H, should I reword this? [resolved]
+
+F4 - Change column labels per Mike's suggestion [resolved]
+
+P26 - Get citations [resolved]
+
+P27 - EMIC wave citation (One of the Lauren's papers?) [resolved]
+
+P29 - Ask about Mike's rewording [resolved]
+
+**NEW**
+
+- Update Angelopoulos citation [resolved]
+- Find and replace Dst with Sym-H (more time resolved) [resolved]
+- Change columns on table [resolved]
+- In future edits: Add Mike's EMIC wave / microburst paper with Douma et al. (2018)
+- Consider adding insights about isotropy-magnitude correlation in Discussion (pic from Blake et al 1996)
+- Add Chen et al. 2020 (modeling the bouncing packet discussed in Blake et al. 1996) and Miyoshi et al. 2020
+	to intro section [resolved]
